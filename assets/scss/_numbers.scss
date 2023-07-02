@@ -1,0 +1,21 @@
+.numbers {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+  .container {
+    margin: 0 auto;
+    .numAnimation {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .circle {
+        .num {
+          color: #000;
+          font-size: 40px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+

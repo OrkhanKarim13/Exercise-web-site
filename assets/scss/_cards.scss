@@ -1,0 +1,96 @@
+.cards {
+  width: 100%;
+  background-color:rgba(30 241 237);
+  padding: 120px 0;
+  .container {
+    margin: 0 auto;
+    .blogCardBox {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .blogCard {
+        width: 33%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        .blogCardContent {
+          width: 100%;
+          .blogCardImg {
+            width: 100%;
+            height: 300px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          width: 100%;
+          .blogCardInfo {
+            margin-top: 30px;
+            .blogCardBtn {
+              margin-bottom: 25px;
+              a {
+                border: 1px solid #eeeeee;
+                display: inline-block;
+                border-radius: 0px;
+                line-height: 28px;
+                padding: 0px 20px;
+                font-size: 12px;
+                font-weight: normal;
+                color: #222222;
+                transition: all 300ms linear 0s;
+              }
+              .crate {
+                background: grey;
+                border-color: grey;
+                color: #fff;
+                &:hover {
+                  border-radius: 10px;
+                }
+              }
+              .about {
+                font-size: 12px;
+                height: 29px;
+                background: grey;
+                border: none;
+                color: #fff;
+                padding: 2px;
+                transition: all 300ms linear 0s;
+                &:hover {
+                  background: grey;
+                  color: #fff;
+                  border-radius: 10px;
+                }
+              }
+            }
+            .blogCardTitle {
+              color: #222222;
+              font-size: 21px;
+              line-height: 24px;
+              margin-bottom: 15px;
+              transition: all 300ms linear 0s;
+              font-weight: bold;
+              &:hover {
+                color: grey;
+              }
+            }
+            .blogCardInfo {
+              &::first-letter {
+                font-size: 30px;
+                font-style: oblique;
+                font-weight: bold;
+              }
+              max-width: 320px;
+              margin-bottom: 15px;
+              color: #131212;
+              font-size: 16px;
+            }
+            .blogCardDate {
+              color: #222222;
+            }
+          }
+        }
+      }
+    }
+  }
+}

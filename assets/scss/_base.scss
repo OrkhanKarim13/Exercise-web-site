@@ -1,0 +1,24 @@
+// Reset codes
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+// Custom codes
+.container {
+  width: 90%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+// Text font
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@400;500&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@700&family=Lobster&family=Noto+Serif+Lao:wght@500;600&display=swap');

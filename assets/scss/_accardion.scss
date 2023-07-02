@@ -1,0 +1,52 @@
+.accardions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 100px 0;
+  .container {
+    .accardion {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 5px;
+      .accardionItem {
+        .accHeader {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          background-color: white;
+          border: none;
+          outline: none;
+          color: black;
+          padding: 10px;
+          cursor: pointer;
+          &.active {
+            background-color: darkgray;
+            i {
+              transform: rotate(180deg);
+              transition: 0.3s ease all;
+            }
+          }
+          span {
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+        .accInfo {
+          background-color: white;
+          padding: 5px;
+          max-height: 0;
+          overflow: hidden;
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          transition: 0.3s ease all;
+          &.active {
+            max-height: 180px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}

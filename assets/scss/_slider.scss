@@ -1,0 +1,54 @@
+html {
+  body {
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    .swiper {
+      width: 100%;
+      margin-top: 100px;
+      padding-bottom: 50px;
+      .swiper-wrapper {
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 300px;
+          .slideTitle {
+            width: 200px;
+            text-align: center;
+            position: absolute;
+            bottom: 2px;
+            left: 10px;
+            background-color: rgb(157, 155, 155);
+            font-family: "Dancing Script", cursive;
+            transform: scale(1);
+            transition: all 300ms linear 0s;
+            &:hover {
+              transform: scale(1.5);
+              transition: all 300ms linear 0s;
+            }
+          }
+          .sth {
+            width: 200px;
+            text-align: center;
+            position: absolute;
+            bottom: 2px;
+            left: 10px;
+            background-color: rgb(121, 83, 83);
+            color: #fff;
+            font-family: "Dancing Script", cursive;
+          }
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
